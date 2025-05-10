@@ -1,0 +1,64 @@
+{
+    /* Common */
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "chcp 65001"
+            ],
+        }
+    },
+    "workbench.startupEditor": "none",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.editor.enablePreview": false,
+    "window.openWithoutArgumentsInNewWindow": "on",
+    "window.restoreWindows": "none",
+    "explorer.confirmDelete": false,
+    "explorer.sortOrder": "type",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.fontFamily": "'MyricaM M', Consolas, 'Courier New', monospace",
+    "editor.renderWhitespace": "all",
+    "editor.stickyScroll.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    /* Python */
+    "python.terminal.executeInFileDir": true,
+    "python.createEnvironment.trigger": "off",
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.autoImportCompletions": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        // "editor.insertSpaces": true,
+        // "editor.tabSize": 4,
+    },
+    "autopep8.args": [
+        "--max-line-length=1000",
+        "--ignore",
+        "E402",
+    ],
+    /* C */
+    "C_Cpp.clang_format_sortIncludes": false,
+    // "C_Cpp.clang_format_style": "file:C:\\moge\\moge",
+    // "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, ColumnLimit: 0}",
+    // "C_Cpp.default.includePath": [
+    //     "C:\\moge\\moge",
+    // ],
+    /* Markdown */
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.fontFamily": "'MyricaM M',monospace",
+        "editor.wordWrap": "off",
+    },
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.printBackground": true,
+    "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
+    // "markdown-preview-enhanced.enablePreviewZenMode": true,
+}

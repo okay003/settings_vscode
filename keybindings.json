@@ -1,0 +1,54 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "ctrl+shift+oem_3",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+oem_3",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    {
+        "key": "ctrl+numpad_divide",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+oem_plus",
+        "command": "-increaseSearchEditorContextLines",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "alt+oem_plus alt+oem_plus",
+        "command": "workbench.action.minimizeOtherEditors"
+    },
+    {
+        "key": "alt+numpad_add alt+numpad_add",
+        "command": "workbench.action.minimizeOtherEditors"
+    },
+    {
+        "key": "alt+numpad_subtract alt+numpad_subtract",
+        "command": "workbench.action.evenEditorWidths"
+    },
+    {
+        "key": "alt+oem_minus alt+oem_minus",
+        "command": "workbench.action.evenEditorWidths"
+    },
+]
