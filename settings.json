@@ -61,4 +61,26 @@
     "markdown-preview-enhanced.printBackground": true,
     "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
     // "markdown-preview-enhanced.enablePreviewZenMode": true,
+    /* VSNotes */
+    "vsnotes.defaultNotePath": "D:\\vsnotes",
+    "vsnotes.tokens": [
+        {
+            "type": "datetime",
+            "token": "{dt}",
+            "format": "YYYYMMDDHHmmss",
+            "description": "Insert formatted datetime."
+        },
+        {
+            "type": "title",
+            "token": "{title}",
+            "description": "Insert note title from input box.",
+            "format": "Untitled"
+        },
+        {
+            "type": "extension",
+            "token": "{ext}",
+            "description": "Insert file extension.",
+            "format": "md"
+        }
+    ],
 }
