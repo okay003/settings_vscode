@@ -63,6 +63,8 @@
     // "markdown-preview-enhanced.enablePreviewZenMode": true,
     /* VSNotes */
     "vsnotes.defaultNotePath": "D:\\vsnotes",
+    "vsnotes.defaultNoteName": "無題",
+    "vsnotes.defaultNoteTitle": "{title}.{ext}",
     "vsnotes.tokens": [
         {
             "type": "datetime",
